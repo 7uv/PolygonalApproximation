@@ -1,7 +1,7 @@
-com/example/demo/helper/EpsilonHelper.class
-com/example/demo/util/Resources.class
-com/example/demo/PolygonalApproximationApplication.class
-com/example/demo/controller/SeriesReducer.class
-com/example/demo/model/Line.class
-com/example/demo/model/Point.class
-com/example/demo/service/ThangamAlgorithmService.class
+com\example\demo\model\Point.class
+com\example\demo\PolygonalApproximationApplication.class
+com\example\demo\util\Resources.class
+com\example\demo\service\ThangamAlgorithmService.class
+com\example\demo\helper\EpsilonHelper.class
+com\example\demo\controller\SeriesReducer.class
+com\example\demo\model\Line.class
