@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-01T12:30:19 UTC" name="Surefire suite" finished-at="2019-12-01T12:30:19 UTC" duration-ms="78">
+  <suite started-at="2019-12-01T14:50:23 UTC" name="Surefire suite" finished-at="2019-12-01T14:50:23 UTC" duration-ms="100">
     <groups>
     </groups>
-    <test started-at="2019-12-01T12:30:19 UTC" name="Surefire test" finished-at="2019-12-01T12:30:19 UTC" duration-ms="78">
+    <test started-at="2019-12-01T14:50:23 UTC" name="Surefire test" finished-at="2019-12-01T14:50:23 UTC" duration-ms="100">
       <class name="com.example.demo.test.SeriesReducerTest">
-        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T12:30:19 UTC" duration-ms="1" status="PASS">
+        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReduceSeries -->
-        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T12:30:19 UTC" duration-ms="2" status="PASS">
+        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T14:50:23 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReduceSeries -->
-        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T12:30:19 UTC" duration-ms="3" status="PASS">
+        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[y = 10^6 * 0.9^x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutomaticEpsilon -->
+        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,28 +81,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldReduceSeries -->
-        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[[1.0, 1.0], [2.0, 1.1], [3.0, 1.2], [4.0, 1.1], [5.0, 1.0]]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[[[1.0, 1.0], [3.0, 1.2], [5.0, 1.0]]]]>
+                <![CDATA[y = (x-3)*(x-5)*(x-7)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldReduceSeries -->
-        <test-method signature="shouldValidateEpsilon(double)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldValidateEpsilon" data-provider="invalidEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="1" status="PASS">
+        </test-method> <!-- testAutomaticEpsilon -->
+        <test-method signature="shouldValidateEpsilon(double)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldValidateEpsilon" data-provider="invalidEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,28 +147,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldValidateEpsilon -->
-        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[zig-zag 101]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[[[0.0, 0.0], [100.0, 0.0]]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldReduceSeries -->
-        <test-method signature="shouldValidateEpsilon(double)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="shouldValidateEpsilon" data-provider="invalidEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldValidateEpsilon(double)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldValidateEpsilon" data-provider="invalidEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,7 +202,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldValidateEpsilon -->
-        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -233,29 +213,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAutomaticEpsilon -->
-        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[y = (x-3)*(x-5)*(x-7)]]>
+                <![CDATA[zig-zag 101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[[0.0, 0.0], [100.0, 0.0]]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutomaticEpsilon -->
-        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="2" status="PASS">
+        </test-method> <!-- shouldReduceSeries -->
+        <test-method signature="shouldReduceSeries(java.util.List, double, java.util.List)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="shouldReduceSeries" data-provider="series" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[y = 10^6 * 0.9^x]]>
+                <![CDATA[[[1.0, 1.0], [2.0, 1.1], [3.0, 1.2], [4.0, 1.1], [5.0, 1.0]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[[1.0, 1.0], [3.0, 1.2], [5.0, 1.0]]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAutomaticEpsilon -->
-        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T12:30:19 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        </test-method> <!-- shouldReduceSeries -->
+        <test-method signature="testAutomaticEpsilon(com.example.demo.test.skel.NamedArrayList)[pri:0, instance:com.example.demo.test.SeriesReducerTest@459e9125]" started-at="2019-12-01T14:50:23 UTC" name="testAutomaticEpsilon" data-provider="automaticEpsilon" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,21 +268,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- testAutomaticEpsilon -->
       </class> <!-- com.example.demo.test.SeriesReducerTest -->
       <class name="com.example.demo.test.EpsilonHelperTest">
-        <test-method signature="shouldCalculateAverage()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateAverage" finished-at="2019-12-01T12:30:19 UTC" duration-ms="7" status="PASS">
+        <test-method signature="shouldCalculateAverage()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateAverage" finished-at="2019-12-01T14:50:23 UTC" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldCalculateAverage -->
-        <test-method signature="shouldCalculateDeviations()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateDeviations" finished-at="2019-12-01T12:30:19 UTC" duration-ms="1" status="PASS">
+        <test-method signature="shouldCalculateDeviations()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateDeviations" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldCalculateDeviations -->
-        <test-method signature="shouldFindMaximum()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T12:30:19 UTC" name="shouldFindMaximum" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldFindMaximum()[pri:0, instance:com.example.demo.test.EpsilonHelperTest@5c6648b0]" started-at="2019-12-01T14:50:23 UTC" name="shouldFindMaximum" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldFindMaximum -->
       </class> <!-- com.example.demo.test.EpsilonHelperTest -->
       <class name="com.example.demo.test.LineTest">
-        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T12:30:19 UTC" duration-ms="1" status="PASS">
+        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,7 +303,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldCalculateDistanceFromPointToLine -->
-        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,7 +324,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldCalculateDistanceFromPointToLine -->
-        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T14:50:23 UTC" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,7 +345,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldCalculateDistanceFromPointToLine -->
-        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T12:30:19 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T12:30:19 UTC" duration-ms="0" status="PASS">
+        <test-method signature="shouldCalculateDistanceFromPointToLine(com.example.demo.model.Point, com.example.demo.model.Line, double)[pri:0, instance:com.example.demo.test.LineTest@6f1de4c7]" started-at="2019-12-01T14:50:23 UTC" name="shouldCalculateDistanceFromPointToLine" data-provider="pointsAndLines" finished-at="2019-12-01T14:50:23 UTC" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
